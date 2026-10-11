@@ -1,0 +1,8 @@
+.DS_Store
+.figure-build/
+preview/
+source-assets/
+look-before-you-move-preview*.zip
+dist/palette-study.html
+dist/palette-study.js
+dist/assets/Figure1_AIDA_Concept.png
