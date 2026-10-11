@@ -95,3 +95,13 @@ a:focus-visible,button:focus-visible,.menu-toggle:focus-visible{outline:3px soli
 @media(min-width:901px){.aida .process-stage{grid-template-rows:24px 156px 32px 24px}.aida .feedback-loop{margin-top:4px;height:18px}}
 @media(min-width:521px) and (max-width:900px){.aida .feedback-loop{margin-top:4px;height:18px}}
 @media(max-width:520px){.collection-row-heading .process-tag{width:184px;min-height:46px}.aida .feedback-loop{bottom:225px}}
+
+/* Full-width robot video; the success metric lives with the introduction. */
+.real-summary{align-self:end}.real-summary>p{font-size:var(--type-body);line-height:1.7;margin:0;max-width:480px}.real-metric{display:flex;align-items:center;gap:20px;border-top:1px solid var(--depth);padding-top:14px;margin-top:20px}.real-metric>strong{font-size:48px;line-height:1;font-weight:600;letter-spacing:-2px;color:var(--depth)}.real-metric>strong span{font-size:24px;letter-spacing:-1px}.real-metric>span{font-size:var(--type-body)}.robot-video{border:var(--line);background:#000;line-height:0;overflow:hidden}.robot-video video{display:block;width:100%;height:auto;aspect-ratio:25/18;object-fit:contain}.robot-video+figure{margin-top:28px}@media(max-width:520px){.real-metric>strong{font-size:40px}.real-metric{gap:16px}}
+
+/* Align the deployment title, result, and introduction in three columns. */
+#real .section-head{grid-template-columns:1.6fr .6fr 1.1fr;column-gap:32px;align-items:center}
+#real .real-summary{align-self:center}
+#real .real-metric{flex-direction:column;align-items:flex-start;gap:10px;border:0;padding:0;margin:0}
+#real .real-metric>span{line-height:1.4}
+@media(max-width:1000px){#real .section-head{grid-template-columns:1fr}#real .real-metric{flex-direction:row;align-items:center;gap:20px}#real .real-summary>p{max-width:none}}

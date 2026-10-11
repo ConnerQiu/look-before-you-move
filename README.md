@@ -19,12 +19,16 @@ Open http://127.0.0.1:8765. This is a static HTML/CSS/JavaScript website with no
 - Task, five skills, and complete original system figure
 - Teacher, spatial-state annotator, and shared harness
 - Sequential stage-success chart, teacher comparison, and harness ablation
-- Real-robot results, video placeholder, and complete original qualitative figure
+- Real-robot results, full-width four-panel experiment video, and complete original qualitative figure
 
 The page uses bright mint (#72FFD7), deep burgundy (#2C0014), and white. It was independently implemented with KRAFT as a visual reference; no Framer template source or assets were imported. Paper figures are displayed whole. Space Grotesk is bundled with its SIL Open Font License in `dist/assets/SpaceGrotesk-OFL.txt`.
 
 ## Pending resources
 
-The real-robot video remains a clearly marked placeholder. Code and Paper buttons remain disabled pending repository and arXiv URLs; the separate Read paper link opens the bundled PDF. Yiting He's name remains unlinked pending a homepage URL.
+Code and arXiv buttons remain disabled pending repository and arXiv URLs; the separate Read paper link opens the bundled PDF. Yiting He's name remains unlinked pending a homepage URL.
 
 Local design studies, editing sources, backups, and old preview archives are excluded from Git.
+
+## Video asset
+
+`dist/assets/videos/experiment_4panel_2x.mp4` is the supplied 2000 × 1440 H.264 video (75.47 seconds), copied without re-encoding. The adjacent JPEG is its first-frame poster. Playback uses native controls, inline playback, and metadata-only preload.
